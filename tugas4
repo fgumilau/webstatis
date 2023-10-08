@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gumilau_latihan4</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='images/layanan_Referensi' href='images/favicon (2).ico'>
+    <script src='main.js'></script>
+    <style>
+    table, th, td {
+    style="border: 2px solid white;"
+    border-radius: 10px;
+    }
+    tr:hover{background-color: bisque;}
+    </style>
+    </head>
+
+    <style>
+        body {
+        background-color :cornflowerblue;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .container {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-size: 36px;
+        background-color: beige;
+        text-align: center;
+        style="border: 1px solid black;"
+    }
+    p {
+        color: white;
+    }
+    ol {
+        text-align: justify;
+        color: brown;
+    }
+    .info {
+        text-align: justify;
+        font-size: 18px;
+        margin: 30px;
+    }
+    </style>
+</head>
+<body>
+    <h1> Layanan Referensi Perpustakaan </h1>
+    <P class="info" div style="border: 2px solid black"> 
+        Layanan Referensi adalah salah satu kegiatan pokok yang dilakukan di perpustakaan yang khusus melayankan/menyajikan koleksi referensi kepada para pemakai/pengunjung perpustakaan.
+        Layanan referensi merupakan salah satu jasa perpustakaan yang disediakan bagi pengguna untuk menemukan informasi yang dibutuhkannya. 
+        Suatu kegiatan pelayanan untuk membantu para pemakai pengunjung perpustakaan menemukan informasi dengan cara: Menerima pertanyaan-pertanyaan dari para pemakai/pengunjung perpustakaan dan kemudian menjawab dengan menggunakan koleksi referensi;Memberi bimbingan untuk menemukan koleksi referensi dan mencari informasi yang dibutuhkan; Memberi bimbingan kepada para pemakai tentang penggunaan bahan pustaka koleksi referensi.
+        Menurut William A. Katz mengatakan bahwa fokus dari layanan referensi adalah pada pemberian jawaban atas pertanyaan referensi atau pencarian informasi.</P>
+        <img src="images/referensi.jpeg" height="350px" width="600px" style="display: block; margin: auto;">
+    <h3 style="color: black;"> Daftar Isi</h3>
+    <ul style="color: black;">
+        <li><a href="#bag1" > Tujuan Layanan Referensi </a></li>
+        <li><a href="#bag2" > Fungsi Layanan Referensi</a></li>
+        <li><a href="#bag3" > Contoh Layanan Referensi Perpustakaan </a></li>
+        <li><a href="#bag4" > Jenis Layanan Referensi </a></li>
+    </ul>
+    <h1 id="bagian1"> Tujuan Layanan</h1>
+    <p class="info"> <span style="border: 1px solid black;"> Berikut beberapa tujuan layanan referensi di perpustakaan sebagai berikut: </span></p>
+    <ol type="1"> </ol>
+    <li> Memberikan informasi cepat dan tepat untuk pemustaka.</li>
+    <li> Menelusur informasi dengan pilihan yang lebih luas, sehingga bisa memberikan rekomendasi yang lebih variatif. </li>
+    <li> Menggunakan koleksi referensi lebih tepat guna.</li>
+    <h1 id="bag2"> Fungsi Layanan Referensi</h1>
+    <p class="info"> Berikut beberapa fungsi layanan referensi perpustakaan yang seharusnya dilakukan dan diterapkan. </p>
+    <ol type="1"></ol>
+    <li> Informasi, menampung dan menjawab pertanyaan yang ditanyakan oleh pemustaka.</li>
+    <li> Bimbingan, membantu menemukan koleksi referensi yang cocok bagi pemustaka. </li>
+    <li> Pengarahan, memberikan pengarahan menggunakan perpustakaan dan koleksi. </li>
+    <li> Pengawasan, menganalisis pola kerja pelayanan. </li>
+    <li> Penilaian, memilah bahan pustaka dalam kelompok koleksi referensi yang bermutu dan berbobot ilmiah agar dapat digunakan lebih baik. </li>
+    <h1 id="bag3"> Contoh Penerapan Layanan Referensi di Perpustakaan. </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kNrltUhL72g?si=goRZjKiLQlF9PaIz" width="560" height="315" title="Penerapan Layanan Referensi di Perpustakaan ITB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    
+    <h1 id="bag4" >Jenis Layanan Referensi</h1>
+    <table border="1 px solid black">
+        <colgroup>
+        <col span="1" style="background-color: rgb(93, 240, 240)">
+        <col span="2" style="background-color: rgb(244, 190, 190)">
+        <tr>
+            <th>Ready Reference Questions (pertanyaan dengan sumber referensi)</th>
+            <td>Pertanyaan yang dapat dijawab secara cepat dengan melakukan konsultasi atau menggunakan 1 atau 2 alat bantu.
+                Pada umumnya seperti pertanyaan mengenai alamat, terjemahan, arti kata atau definisi suatu istilah,tanggal dan tempat sebuah kejadian atau biografi singkat seorang tokoh, dll.
+                Dengan adanya internet, pertanyaan-pertanyaan yang bersifat ready reference tidak hanya dapat dijawab dengan alat bantu manual, tapi juga bisa diperoleh secara cepat di internet.
+                Media komunikasi antara pengguna dengan pustakawan pun dapat dilakukan dengan tidak hanya bertatap muka secara langsung, tetapi bisa melalui telepon, email bahkan dengan cara chatting.</td>
+        </tr>
+        <th>Pertanyaan penelitian (research questions)</th>
+        <td>Selain pertanyaan yang dapat dijawab secara mudah dan cepat, layanan referensi juga menerima pertanyaan-pertanyaan yang kompleks untuk keperluan penelitian, dan untuk memperoleh jawabannya, pustakawan harus melakukan penelusuran informasi terlebih dahulu.</td>
+    </tr>
+    <tr>
+        <th>Peminjaman antar perpustakaan (interlibrary loan)</th>
+        <td>Dalam bentuk ini perpustakaan boleh meminjam dan meminjamkan koleksinya ke perpustakaan lain. Dalam hal ini, peminjaman dilakukan oleh perpustakaan serta atas nama perpustakaan. Dengan demikian, Anggota perpustakaan A bila ingin meminjam buku dari perpustakaan B maka anggota tersebut harus melakukannya melalui perpustakaan A. Jadi Anggota tidak boleh berhubungan langsaung dengan perpustakaan lain.</td>
+    </tr>
+    </table>
+    <hr>
+        <div class="container">
+        <h1> Absen Kunjungan Layanan Referensi </h1>
+        </div>
+        <form action="/data_pengunjung.php/">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama"><br>
+                <br>
+            <label for="ID">Instansi:</label><br>
+            <input type="text" id="ID" name="ID"><br>
+
+            <br><hr>
+            <p>Pilih Jenis Layanan yang dibutuhkan:</p>
+            <form action="/action_page.php">
+              <input type="radio" id="RRQ" name="Layanan_Yang_dibutuhkan" value="RRQ">
+              <label for="RRQ">Ready Reference Questions</label><br>
+              <input type="radio" id="RQ" name="Layanan_Yang_dibutuhkan" value="RQ">
+              <label for="RQ">Research Questions</label><br>
+              <input type="radio" id="IL" name="Layanan_Yang_dibutuhkan" value="IL">
+              <label for="IL">Interlibrary Loan</label><br><br>
+              <input type="submit" value="Submit">
+
+              <button type="button" onclick="alert ('thank you!')">Done</button>
+              <button type="submit" onclick="alert ('thankyou')">Submit here</button>
+              <button type="reset">reset</button>
+            </form> 
+</body>
+</html>
