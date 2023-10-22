@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://s3-ceph.indoteam.id/chatnews-bucket-production/wp-content/production/uploads/2022/04/01142508/malaysian-food-1536x1075.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-indent: 45px;
+    text-align: justify;
+    letter-spacing: 3px;
+    padding: 25px;
+    outline-width: 12px;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    background-color: burlywood;
+}
+
+h1 {
+    background-color:brown;
+    color: wheat;
+    text-align: center;
+}
+
+h2 { 
+    background-color:chocolate;
+    color: lawngreen;
+    text-align: center;
+    
+}
+
+/*ini untuk isian kontennya*/
+#content1 {
+    background-color:bisque;
+    border: 5px dotted blueviolet;
+    outline-color: beige;
+}
+
+#content2 {
+    background-color:lightcoral;
+    border: 5px dotted gold;
+    outline-color: beige;
+}
+
+#content3 {
+    background-color: bisque;
+    border: 5px dotted royalblue;
+    outline-color: beige;
+}
+
+#pengantar {
+    outline-color: cadetblue;
+    border: 5px dotted palevioletred;
+    background-color: rgb(195, 238, 153);
+}
