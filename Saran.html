@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regist form</title>
+    <link rel="stylesheet" href="images/SMP.ico">
+
+<!-- favicon -->
+<link rel="icon" type="images/SMPertamina" href="images/SMP.ico">
+
+    <!-- icon -->
+     <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;   
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.saran {
+    width: 100%;
+    height: 100hv;
+    background-color: rgb(249, 168, 17);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+form { 
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3 {
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:rgb(225, 225, 225);
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: greenyellow;
+    color: black;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+/* footer */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+footer {
+    background-color:#efef6c;
+    margin: 0px;
+    padding: 0 2px;
+}
+.footercont {
+    width: 100%;
+    padding: 10px 0px 0px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 15px;
+}
+.socialicons a i{
+    font-size: 2rem;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
+.socialicons a:hover{
+    background-color: rgb(63, 162, 155);
+    transition: 0.4s;
+}
+
+.socialicons a:hover i{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li{
+    display: flex;
+    justify-content: center;
+    margin: 0 2px 7px 4px;
+    padding: 2px;
+    color: black;
+}
+.footernav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.1rem;
+    opacity: 0.5;
+    transition: 1s;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(168, 150, 220);
+}
+
+.footerbottom p{
+    color: black;
+    font-size: 20px;
+}
+.design {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+    opacity: 0.8;
+    font-weight: 350;
+    color:floralwhite;
+}
+@media screen and (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+
+    }
+}
+</style>
+<body>
+    <div class="saran">
+            <form>
+                <h3>FORM REGISTRASI DAN SARAN</h3>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="mail" id="Email" placeholder="Email Id" required>
+                <input type="mail" id="Pass" placeholder="Password" required>
+                <input type="ig" id="Instagram" placeholder="Username IG" required>
+                <input type="domisili" id="place" placeholder="Asal Kota" required>
+                <textarea id="pesan" rows="4" placeholder="Kritik / Saran"></textarea>
+                <button type="submit"> send</button>
+            </form>
+    </div>
+
+
+    <!-- footer start-->
+<footer>
+    <div class="footercont">
+        <div class="socialicons">
+            <a href="https://www.facebook.com/SMPertamina/" id="fb"><i data-feather="facebook"></i></a>
+            <a href="https://twitter.com/SMPertamina" id="twt"><i data-feather="twitter"></a></i>
+            <a href="https://www.youtube.com/user/smbritamabasketball/videos" id="yt"><i data-feather="youtube"></a></i>
+            <a href="https://www.instagram.com/smpertamina/" id="ig"><i data-feather="instagram"></i></a>
+        </div>
+        <div class="footernav">
+            <ul>
+                <li><a href="projekuts.html" target="_blank"> Home</a></li>
+                <li><a href="about.html" target="_blank"> About</a></li>
+                <li><a href="galeri.html" target="_blank">Gallery</a></li>
+                <li><a href="#" target="_blank">Contact</a></li>
+                <li><a href="Saran.html" target="_blank">Registrasi</a></li>
+                </ul>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023; Design by <span class="design">Satria Muda</span></p>
+        </div>
+    </div>
+</div>
+</footer>
+
+<!-- icons -->
+    <script>
+        feather.replace();
+      </script>
+
+
+
+<!-- icons -->
+    <script>
+        feather.replace();
+      </script>
+
+
+<script src="projekuts.js"></script>
+
+
+</body>
+</html>
